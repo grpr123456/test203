@@ -3,7 +3,7 @@ provider "aws" {
   
 }
 
-module "first" {
+module "second" {
     source = "git::https://github.com/grpr123456/test203.git"
     vpc_cidr="10.2.0.0/16"
     subnet1_cidr="10.2.1.0/24"
